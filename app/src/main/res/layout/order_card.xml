@@ -1,0 +1,75 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="120dp"
+    android:foreground="?attr/selectableItemBackground"
+    android:padding="9dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginBottom="25dp"
+    tools:context="Activity.OrderActivity"
+    android:background="@drawable/gradient_background"
+    android:layout_marginStart="-20dp"
+    app:cardCornerRadius="20dp">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="137dp">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/orderImage"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:layout_marginLeft="-110dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="30dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/rounded_cornere_shape"
+        app:srcCompat="@drawable/electric_castle" />
+
+    <TextView
+        android:id="@+id/TextOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="190dp"
+        android:rotationX="1"
+        android:text="TextTitle" />
+
+    <TextView
+        android:id="@+id/textNumberOfTickets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="70dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textTotalPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="90dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="90dp"
+        android:text="Price:" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="70dp"
+        android:text="Tickets:" />
+
+
+</androidx.cardview.widget.CardView>
